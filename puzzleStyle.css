@@ -1,0 +1,78 @@
+#container {
+    width:800px;
+    height:800px;
+    margin:0 auto;
+}
+h1{
+    text-align:center;
+    font-family: 'Charm', cursive;
+    font-size:50px;
+}
+#welcome {
+    width:700px;
+    height:300px;
+    margin:0 auto;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+}
+#welcome p{
+    text-align:center;
+    font-size:30px;
+    line-height: 70px;
+}
+.button {
+    width:fit-content;
+    border:1px solid black;
+    border-radius: 10%;
+    padding:10px 20px;
+    margin:20px auto;
+}
+
+#puzzle_album {
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+#puzzle_album div{
+    margin-top:30px;
+    margin-left:45px;
+    border:1px solid #333;
+    border-radius:20%;
+    width:200px;
+    height:200px;
+    background-size: cover;
+}
+#game {
+    position:relative;
+    margin:40px auto;
+    background-color:#CCF;
+    width:450px;
+    height:450px;
+}
+
+.puzzlePiece {
+    width:150px;
+    height:150px;
+    background-size: cover;
+    border-radius:10%;
+    background-size:450px 450px;
+}
+#gameInfo {
+    position:relative;
+    margin:20px auto;
+    text-align:center;
+}
+#gameInfo p {
+    font-size:50px;
+}
+#congrat {
+    position:absolute;
+    left:230px;
+    top:-60px;;
+}
+#restart {
+    position:absolute;
+    left:290px;
+    top:10px;
+}
+

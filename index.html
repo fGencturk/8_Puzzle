@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>CTIS255 PROJECT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-3.1.1.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+    <link href="puzzleStyle.css" rel="stylesheet" type="text/css"/>
+    <script src="puzzle.js" type="text/javascript"></script>
+    <script src="solver.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <div id="part1">
+        <div id="header">
+            <h1>
+                8 PUZZLE
+            </h1>
+        </div>
+        <div id="welcome">
+            <p>
+                CTIS 255 - Web Technologies 1<br>
+                PROJECT<br>
+                Fall 2018
+            </p>
+            <p>
+                By<br>
+                Furkan Gençtürk 21703067<br>
+                & Sinan Işık 21602269
+            </p>
+            <p><br>
+                --Have Fun--
+            </p>
+        </div>
+        <div class="button">
+            START
+        </div>
+    </div>
+    <div id="part2">
+        <h1>Select an Image</h1>
+        <div id="puzzle_album">
+            <div style="background-image:url('img/car1.jpg');" > 
+            </div>
+            <div style="background-image:url('img/car2.jpg');" > 
+            </div>
+            <div style="background-image:url('img/car3.jpg');" > 
+            </div>
+        </div>        
+        <div class="button">
+            CONTINUE
+        </div>
+    </div>
+    <div id="part3">
+        <div id="game">
+            
+        </div>
+        <div id="gameInfo">
+            <form name="gameForm">
+                <select name="shuffle">
+                    <option value="0">Shuffle Amount</option>
+                    <option value="3">3 Shuffle</option>
+                    <option value="30">30 Shuffle</option>
+                </select>
+                <div>
+                    <button class="button">Shuffle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+    
+</body>
+</html>
